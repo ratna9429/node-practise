@@ -2,22 +2,18 @@
 // Expected output: 'e'
 
 const findFistUnique = (str) => {
-  let output = [];
+  let output = {};
   let arr = str.split("");
 
-  let result = arr.map((ele, index) => {
-    console.log("output ==>", output);
-    console.log("index ==>", index);
-    console.log("arr.indexOf(ele) ==>", arr.indexOf(ele));
-
-    if (index > arr.indexOf(ele)) {
-      output.pop(arr[0]);
+  for (let i = 0; i < arr.length; i++) {
+    if (output[arr[i]]) {
+      delete output[arr[i]];
     } else {
-      output.push(ele);
+      output[arr[i]] = arr[i];
     }
-  });
+  }
 
-  return output;
+  return Object.keys(output);
 };
 
 console.log("result ==>", findFistUnique("abacddbec"));
