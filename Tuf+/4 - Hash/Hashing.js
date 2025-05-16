@@ -2,6 +2,7 @@
 
 // Brute Force method
 TODO: // Solve using two for loops 
+// tempo comment line
 
 // Optimized solution
 let arr = [4, 4, 5, 5, 6];
