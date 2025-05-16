@@ -1,7 +1,7 @@
 // Find Highest Occurance Number
 
 // Brute Force method
-TODO: // Solve using two for loops 
+TODO: // Solve using two for loops , already done previously. Can do again for practise
 
 // Optimized solution
 let arr = [4, 4, 5, 5, 6];
