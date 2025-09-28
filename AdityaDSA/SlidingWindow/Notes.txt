@@ -1,0 +1,5 @@
+// Point 1:
+--> Sliding window is of two types. 1. Fixed Window Size , 2. Variable Window Size
+--> Two types of questions can be asked. 1. Window Size will be given. 2. Window Size will not be given. 
+
+// Point 2:
